@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommitComments>	<CommitComment>Added comments.</CommitComment>
+	<CommitComment>The value of supply temperature (420TE001_UNIT1_NET0) is getting from two proxy tags named (value_203TE071, value_203TE072). 
+The average value of these proxy tags.</CommitComment>
+	<CommitComment>Initial Commit.</CommitComment>
+	<CommitComment>Initial import.</CommitComment>
+</CommitComments>

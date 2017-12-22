@@ -1,0 +1,84 @@
+package com.nad.data.buffer;
+
+import java.util.concurrent.ConcurrentHashMap;
+
+public class TagsDataBuffer {
+
+	public static ConcurrentHashMap<String, ConcurrentHashMap<String, String>> mapTagIdValues = new ConcurrentHashMap();
+	public static ConcurrentHashMap<String, String> mapMachineTagToCloudTag = new ConcurrentHashMap();
+
+	static {
+
+		//----------------Cooling Water Tags---------------------------------------------------------
+		mapMachineTagToCloudTag.put("TE-WS.DROP1/51.UNIT1@NET0.AV", "TE_WS_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("WS-PT.DROP3/53.UNIT1@NET0.AV", "PT_WS_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("420TE001.DROP3/53.UNIT1@NET0.AV", "420TE001_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("420PT002.DROP3/53.UNIT1@NET0.AV", "420PT002_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("420TE002.DROP3/53.UNIT1@NET0.AV", "420TE002_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("420PT003.DROP3/53.UNIT1@NET0.AV", "420PT003_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("WS-HT.DROP3/53.UNIT1@NET0.AV", "WS_HT_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("420NLS001A-A.DROP3/53.UNIT1@NET0.AV", "420NLS001A_A_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("420NLS001B-A.DROP3/53.UNIT1@NET0.AV", "420NLS001B_A_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("420NLS001C-A.DROP3/53.UNIT1@NET0.AV", "420NLS001C_A_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("420NLS001D-A.DROP3/53.UNIT1@NET0.AV", "420NLS001D_A_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("420NLS001E-A.DROP3/53.UNIT1@NET0.AV", "420NLS001E_A_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("203PT026.DROP2/52.UNIT1@NET0.AV", "203PT026_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("420NLS002A-I.DROP3/53.UNIT1@NET0.AV", "420NLS002A_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("420NLS002B-I.DROP3/53.UNIT1@NET0.AV", "420NLS002B_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("420NLS002C-I.DROP3/53.UNIT1@NET0.AV", "420NLS002C_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("420NLS002D-I.DROP3/53.UNIT1@NET0.AV", "420NLS002D_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("AH3-UA.DROP3/53.UNIT1@NET0.AV", "AH3_UA_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("2G-AI21.DROP3/53.UNIT1@NET0.AV", "2G_AI21_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("BLOCK_MW.DROP1/51.UNIT1@NET0.AV", "BLOCK_MW_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("DWATT.DROP1/51.UNIT1@NET0.AV", "DWATTX_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("DEHAM002.DROP41/91.UNIT1@NET0.AV", "DEHAM002_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("202FT005.DROP1/51.UNIT1@NET0.AV", "202FT005_UNIT1_NET0");
+
+		//---------------Auxiliary Tags---------------------------------------------------------------
+		// mapMachineTagToCloudTag.put("DEHAM002.UNIT1@NET0","DEHAM002_UNIT1_NET0");
+		// mapMachineTagToCloudTag.put("DWATTX.UNIT1@NET0","DWATTX_UNIT1_NET0");
+		// mapMachineTagToCloudTag.put("BLOCK_MW.UNIT1@NET0","BLOCK_MW_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("ROHRI-1_MW.UNIT1@NET0", "ROHRI_1_MW_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("ROHRI-2_MW.UNIT1@NET0", "ROHRI_2_MW_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("FAUJI-1_MW.UNIT1@NET0", "FAUJI_1_MW_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("FAUJI-2_MW.UNIT1@NET0", "FAUJI_2_MW_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("AH05-P.UNIT1@NET0", "AH05_P_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("2G-AI23.UNIT1@NET0", "2G_AI23_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("2G-AI24.UNIT1@NET0", "2G_AI24_UNIT1_NET0");
+		// mapMachineTagToCloudTag.put("2G-AI21.UNIT1@NET0","2G_AI21_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("GEN_PF.UNIT1@NET0", "GEN_PF_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("ATS2-UA.UNIT1@NET0", "ATS2_UA_UNIT1_NET0");
+		// mapMachineTagToCloudTag.put("AH3-UA.UNIT1@NET0","AH3_UA_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("203NLS021A-I.UNIT1@NET0", "203NLS021A_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("203NLS021B-I.UNIT1@NET0", "203NLS021B_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("202NLS204A-I.UNIT1@NET0", "202NLS204A_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("202NLS204B-I.UNIT1@NET0", "202NLS204B_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("202NLS205A-I.UNIT1@NET0", "202NLS205A_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("202NLS205B-I.UNIT1@NET0", "202NLS205B_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("203NLS061A-I.UNIT1@NET0", "203NLS061A_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("203NLS061B-I.UNIT1@NET0", "203NLS061B_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("203NLS051-I.UNIT1@NET0", "203NLS051_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("203NLS052-I.UNIT1@NET0", "203NLS052_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("203NLS115-I.UNIT1@NET0", "203NLS115_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("203NLS114-I.UNIT1@NET0", "203NLS114_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("203NLS116-I.UNIT1@NET0", "203NLS116_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("PANCHE-20.UNIT1@NET0", "PANCHE_20_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("EHOASUR.UNIT1@NET0", "EHOASUR_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("EHOBSUR.UNIT1@NET0", "EHOBSUR_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("201NLS058A-I.UNIT1@NET0", "201NLS058A_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("201NLS058B-I.UNIT1@NET0", "201NLS058B_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("201NLS057A-I.UNIT1@NET0", "201NLS057A_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("201NLS057B-I.UNIT1@NET0", "201NLS057B_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("420NLS003A-A.UNIT1@NET0", "420NLS003A_A_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("420NLS003B-A.UNIT1@NET0", "420NLS003B_A_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("410HS02-I.UNIT1@NET0", "410HS02_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("410HS001-I.UNIT1@NET0", "410HS001_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("240HSC01A-I.UNIT1@NET0", "240HSC01A_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("240HSC01B-I.UNIT1@NET0", "240HSC01B_I_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("AH29-IA.UNIT1@NET0", "AH29_IA_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("AH06-P.UNIT1@NET0", "AH06_P_UNIT1_NET0");
+		mapMachineTagToCloudTag.put("AH8-IA.UNIT1@NET0", "AH8_IA_UNIT1_NET0");
+
+	}
+
+}

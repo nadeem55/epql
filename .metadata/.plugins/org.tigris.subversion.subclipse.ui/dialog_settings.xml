@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="0" key="CommitDialog.location.y"/>
+	<item value="385" key="NewRepositoryDialog.size.y"/>
+	<item value="0" key="CommitDialog.location.x"/>
+	<item value="500" key="CommitDialog.weights.0"/>
+	<item value="" key="DirectorySelectionPage.lastParent_file:///D:/repositries/epql"/>
+	<item value="500" key="CommitDialog.weights.1"/>
+	<item value="552" key="NewRepositoryDialog.size.x"/>
+	<item value="1040" key="CommitDialog.size.y"/>
+	<item value="1920" key="CommitDialog.size.x"/>
+	<item value="264" key="NewRepositoryDialog.location.y"/>
+	<item value="file:///D:/repositries/epql/opcda-to-xml-v2" key="UrlCombo.repositoryBrowser.0"/>
+	<item value="684" key="NewRepositoryDialog.location.x"/>
+	<item value="file:///D:/repositries/epql/opcda-to-xml" key="UrlCombo.repositoryBrowser.1"/>
+	<item value="672" key="BranchTag.location.x"/>
+	<item value="264" key="BranchTag.location.y"/>
+	<item value="file:///D:/repositries/epql" key="RepositorySelectionPage.lastRepository"/>
+	<item value="385" key="BranchTag.size.y"/>
+	<item value="576" key="BranchTag.size.x"/>
+	<section name="CommitWizard">
+		<item value="500" key="VWeight2"/>
+		<item value="500" key="VWeight1"/>
+		<item value="false" key="ShowCompare"/>
+	</section>
+	<section name="NewLocationWizard">
+	</section>
+</section>

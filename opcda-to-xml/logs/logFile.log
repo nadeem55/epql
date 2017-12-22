@@ -1,0 +1,6 @@
+16:12:45.771 472  [main] INFO  com.nad.MainApp - Valud of a:[4]
+16:12:45.789 490  [main] INFO  com.nad.MainApp - Hello World of Maven!!!!!!!!!!!
+16:12:45.791 492  [main] INFO  com.nad.MainApp - Pring logging info in method!!!!!!!!!!!!!
+16:13:26.917 479  [main] INFO  com.nad.MainApp - Valud of a:[4]
+16:13:26.922 484  [main] INFO  com.nad.MainApp - Hello World of Maven!!!!!!!!!!!
+16:13:26.928 490  [main] INFO  com.nad.MainApp - Pring logging info in method!!!!!!!!!!!!!

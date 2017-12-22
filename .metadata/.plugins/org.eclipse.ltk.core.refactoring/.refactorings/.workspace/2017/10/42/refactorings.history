@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;energy-subscriptionmachineadapter&apos; to &apos;epql-subscriptionmachineadapter&apos;&#x0D;&#x0A;- Original element: &apos;energy-subscriptionmachineadapter&apos;&#x0D;&#x0A;- Renamed element: &apos;energy-subscriptionmachineadapter&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;energy-subscriptionmachineadapter&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=energy-subscriptionmachineadapter" name="epql-subscriptionmachineadapter" references="true" stamp="1508151433325" version="1.0"/>
+</session>

@@ -1,0 +1,59 @@
+(java.net.SocketPermission "*" "connect,resolve")
+
+# List imports as wild card, export services are listed out.
+(org.osgi.framework.PackagePermission "*" "import")
+(org.osgi.framework.PackagePermission "${package}.api" "export")
+
+# Registered services
+(org.osgi.framework.ServicePermission "com.ge.dspmicro.machinegateway.api.adapter.ISubscriptionMachineAdapter" "register")
+(org.osgi.framework.ServicePermission "com.ge.dspmicro.machinegateway.api.adapter.IMachineAdapter" "register")
+
+# Get other services.
+(org.osgi.framework.ServicePermission "com.ge.dspmicro.security.admin.api.ISecurityUtils" "get")
+
+# Bundle Wiring for pax logging.
+(org.osgi.framework.AdaptPermission "(adaptClass=org.osgi.framework.wiring.BundleRevision)" "adapt")
+
+# allow capability access to OSGi
+(org.osgi.framework.CapabilityPermission "osgi.ee" "require")
+
+# Generic stuff
+(org.osgi.service.cm.ConfigurationPermission "*" "configure")
+(org.osgi.service.event.TopicPermission "*" "publish")
+(java.util.PropertyPermission "*" "read")
+(java.lang.RuntimePermission "getClassLoader")
+(java.lang.RuntimePermission "shutdownHooks")
+(java.lang.reflect.ReflectPermission "newProxyInPackage.*")
+(java.lang.RuntimePermission "setContextClassLoader")
+(java.lang.reflect.ReflectPermission "suppressAccessChecks")
+(java.lang.RuntimePermission "accessDeclaredMembers")
+(java.net.SocketPermission "*" "connect,resolve,listen,accept")
+(java.util.PropertyPermission "*" "read,write")
+(java.lang.RuntimePermission "modifyThread")
+(java.lang.RuntimePermission "getStackTrace")
+
+# Can read security configuration file location.
+# (java.io.FilePermission "${org.ops4j.pax.logging.logdir}/-" "read")
+# (java.io.FilePermission "${org.ops4j.pax.logging.logdir}/data.csv" "read")
+
+(java.io.FilePermission "${predix.data.dir}/appdata/-" "read")
+(java.io.FilePermission "${predix.data.dir}/appdata/-" "write")
+
+(java.io.FilePermission "${predix.data.dir}/configuration/machine/com.ge.dspmicro.custom.machineadapter-0.xml" "read")
+(java.io.FilePermission "${predix.data.dir}/configuration/machine/com.ge.dspmicro.hubco.machineadapter-0.xml" "read")
+
+#(java.io.FilePermission "${predix.data.dir}/appdata/nodes_data/20170426_100107.xml" "read")
+#(java.io.FilePermission "${predix.data.dir}/appdata/nodes_data/20170426_100107.xml" "write")
+#(java.io.FilePermission "${predix.data.dir}/appdata/archive/20170426_100107.xml" "read,write")
+
+(java.io.FilePermission "${predix.data.dir}/appdata/nodes_data/-" "read")
+(java.io.FilePermission "${predix.data.dir}/appdata/nodes_data/-" "write")
+(java.io.FilePermission "${predix.data.dir}/appdata/nodes_data/archive/-" "read,write,delete")
+
+#(java.io.FilePermission "D:\AOGETL\-" "read")
+#(java.io.FilePermission "D:\AOGETL\-" "write")
+#(java.io.FilePermission "D:\AOGETL\archive\-" "read,write")
+
+
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tags>
+	<tag id="WS-PT.DROP3/53.UNIT1@NET0.AV">
+		<time>1507716571920</time>
+		<value>996.5631</value>
+	</tag>
+	<tag id="203TE071.DROP2/52.UNIT1@NET0.AV">
+		<time>1507716571920</time>
+		<value>28.807608</value>
+	</tag>
+	<tag id="203TE072.DROP2/52.UNIT1@NET0.AV">
+		<time>1507716571920</time>
+		<value>28.68149</value>
+	</tag>
+	<tag id="203TE073.DROP2/52.UNIT1@NET0.AV">
+		<time>1507716571920</time>
+		<value>35.6254</value>
+	</tag>
+	<tag id="WS-HT.DROP3/53.UNIT1@NET0.AV">
+		<time>1507716571920</time>
+		<value>16.361488</value>
+	</tag>
+	<tag id="203TE074.DROP2/52.UNIT1@NET0.AV">
+		<time>1507716571920</time>
+		<value>35.499012</value>
+	</tag>
+</tags>

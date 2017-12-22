@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.openscada.opc.lib.common.ConnectionInformation"/>
+<fullyQualifiedTypeName name="org.openscada.opc.lib.da.Server"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="org.openscada.opc.lib.da.AccessBase"/>
+<fullyQualifiedTypeName name="org.openscada.opc.lib.da.SyncAccess"/>
+<fullyQualifiedTypeName name="org.jinterop.dcom.common.JIException"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.openscada.opc.lib.da.DataCallback"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
+<fullyQualifiedTypeName name="org.openscada.opc.lib.da.ItemState"/>
+<fullyQualifiedTypeName name="org.openscada.opc.lib.da.Item"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="com.nad.epql.water.cooler.calc.Util"/>
+<fullyQualifiedTypeName name="com.nad.data.buffer.TagsDataBuffer"/>
+<fullyQualifiedTypeName name="com.nad.file.xml.SaveData"/>
+<fullyQualifiedTypeName name="com.nad.opcda.OPCDAClient"/>
+<fullyQualifiedTypeName name="com.nad.epql.calc.auxiliary.AuxilliaryData"/>
+</qualifiedTypeNameHistroy>
